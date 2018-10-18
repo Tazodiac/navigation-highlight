@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Sigmar One, cursive;
+  font-family: Sigmar One, sans-serif;
   font-family: Georgia, sans-serif;
   line-height: 1.5;
   text-align: center;
@@ -14,21 +14,30 @@ header {
   background-color: #ffe500;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   color: #b20953;
   font-family: Sigmar One, sans-serif;
+  font-size: 3rem;
 }
 
 li {
-  display: inline-block;
-  text-align: center;
   list-style-type: none;
-  font-family: Sigmar, sans-serif;
+  display: inline-block;
+}
+
+a {
+  text-align: center;
+  font-family: Georgia, sans-serif;
   text-decoration: none;
-  padding: .5em .75em;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
   color: #fff;
   border-radius: 5px;
   border: 2px solid #b2a212;
+}
+
+a:hover {
+  background-color: #cc1465;
+  border: 2px solid #cc1465;
 }
