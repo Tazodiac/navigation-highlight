@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Georgia', sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+
+}
