@@ -1,8 +1,9 @@
 html {
   box-sizing: border-box;
-  font-family: 'Sigmar One', cursive;
-  font-family: 'Georgia', sans-serif;
+  font-family: Sigmar One, cursive;
+  font-family: Georgia, sans-serif;
   line-height: 1.5;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -10,5 +11,24 @@ html {
 }
 
 header {
+  background-color: #ffe500;
+}
 
+h1 {
+  text-align: center;
+  color: #b20953;
+  font-family: Sigmar One, sans-serif;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  font-family: Sigmar, sans-serif;
+  text-decoration: none;
+  padding: .5em .75em;
+  background-color: #b2a212;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #b2a212;
 }
